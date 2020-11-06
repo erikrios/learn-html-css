@@ -57,3 +57,83 @@ body {
 .container .header {
     padding: 20px;
 }
+
+.container .header .title {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.container .header .navigation {
+    margin-top: 20px;
+}
+
+.container .header .navigation li {
+    display: inline;
+    padding-right: 15px;
+    padding: 8px;
+}
+
+.container .header .navigation li a {
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.container .header .navigation li:hover {
+    background-color: mediumorchid;
+}
+
+.container .header .navigation li a:hover {
+    color:white;
+}
+
+.container .hero {
+    height: 320px;
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    background-position: -50px;
+    border-top: 5px solid mediumslateblue;
+    border-bottom: 5px solid greenyellow;
+}
+
+.container .content {
+    padding: 20px;
+}
+
+.container .content .content-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.container .content .writer {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.container .content .writer a {
+    text-decoration: none;
+    color: mediumorchid;
+}
+
+.container .content .writer a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+.container .content .articles p {
+    margin-bottom: 16px;
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 20px;
+}
+
+.container .footer {
+    padding: 20px;
+    background-color: black;
+}
+
+.container .footer p {
+    color: white;
+    text-align: center;
+}
