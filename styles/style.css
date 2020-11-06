@@ -47,3 +47,13 @@ body {
     background-image: url("../images/pattern.png");
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.container {
+    width: 800px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.container .header {
+    padding: 20px;
+}
